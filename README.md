@@ -4,6 +4,28 @@
 
 This application analyzes social media posts to detect signs of mental health issues and provides insights. It uses LlamaIndex for semantic analysis and can integrate with social media platforms' APIs for data collection.
 
+mental-health-app/
+│
+├── backend/
+│   ├── fetch_data.py
+│   ├── preprocess_data.py
+│   ├── generate_embeddings.py
+│   ├── analyze_mental_health.py
+│   └── app.py
+│
+├── frontend/
+│   ├── pages/
+│   │   ├── api/
+│   │   │   ├── fetch_data.js
+│   │   │   └── analyze_mental_health.js
+│   │   ├── index.js
+│   │   ├── data-input.js
+│   │   └── results.js
+│   └── public/
+│
+└── README.md
+
+
 ## Features
 
 - Collects social media data from platforms like Twitter, Reddit, and others.
